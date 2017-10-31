@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Pacifico');
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('bootstrap/glyphicons-halflings-regular.eot');
+  src: url('bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+html {
+  background-color: white;
+}
+body {
+  font-family: 'Bitter', serif;
+
+}
+.btn-group-wrap {
+  background-color: #80594d;
+  color: white;
+  line-height: 3.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+}
+.btn {
+  background-color: #80594d;
+  margin: 10px 10px 10px 20px;
+
+}
+.item {
+  display: none;
+  position: relative;
+}
+.btn:hover {
+  background-color: #cfb8af;
+  color : white;
+}
+.btn:active {
+  background-color: #cfb8af;
+  color : white;
+}
+#active {
+  background-color: #f3dfd8;
+  color: #80594d;
+}
+.container {
+  width: 100%;
+  padding: 0;
+  position: absolute;
+}
+.img-responsive {
+  opacity: 0.7;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.land {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+p {
+  font-size: 16px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#main {
+  background-color: initial;
+  border: 1px solid white;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.25em;
+}
+#main:hover {
+  background: white;
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+  color: #80594d;
+}
+legend, label {
+  color: #cfb8af;
+  letter-spacing: 0.25em;
+}
+.form-style-3  input[type=submit] {
+  background-color: inherit;
+  border: 1px solid #80594d;
+  color: #80594d;
+}
+.form-style-3  input[type=submit]:hover {
+  background-color: #cfb8af;
+  opacity: 0.5;
+}
+@media (max-width:480px) {
+    .carousel-caption {
+      position: absolute;
+      top: 30%;
+      transform: translateY(-50%);
+    }
+    .btn, #main {
+      font-size: 3px;
+    }
+    p {
+      font-size: 6px;
+    }
+    h2 {
+      font-size: 10px;
+    }
+    .land {
+      font-size: 15px;
+    }
+    legend, label {
+      font-size: 6px;
+    }
+}
+@media (max-width:780px) {
+    .btn, #main {
+      font-size: 10px;
+    }
+    p {
+      font-size: 10px;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    .land {
+      font-size: 19px;
+    }
+    legend, label {
+      font-size: 10px;
+    }
+
+}
